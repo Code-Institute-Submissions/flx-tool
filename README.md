@@ -15,7 +15,7 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 The goal of this website is to __increase the success rate__ at the NDLS _(National Driving Licence Service)_ __for customers exchanging foreign licences.__
 
 # Table of Contents
-1. Overview
+1. [Overview](#1-overview)
 2. Description
 3. User Stories
 4. User Experience (UX)
