@@ -4,19 +4,19 @@ The goal of this website is to __increase the success rate__ at the NDLS _(Natio
 
 # Table of Contents
 1. [Overview](#1-overview)
-2. Description
-3. User Stories
-4. User Experience (UX)
-5. Features
-6. Technologies Used
-7. References For Learning
-8. Trials & Testing
-9. Problem Solving
-10. Code Validation
-11. GIT Version Control 
-12. Website Deployment
-13. Credits & Acknowledgments
-14. Repositiory Support
+2. [Description](#2-description)
+3. [User Stories](#3-user-stories)
+4. [User Experience (UX)]()
+5. [Features]
+6. [Technologies Used]
+7. [References For Learning]
+8. [Trials & Testing]
+9. [Problem Solving]
+10. [Code Validation]
+11. [GIT Version Control]
+12. [Website Deployment]
+13. [Credits & Acknowledgments]
+14. [Repositiory Support]
 
 # 1: Overview
 
@@ -65,22 +65,22 @@ Below are some user stories which reveal how this website is helpful.
     * __Make it convenient for the user__, save them from digging through the official website which is designed to cater to all applicants.
 ---
 ## Scope Plane
-* Function Requirements
-    * Verify eligibility.
-    * __Guide the user__ through the requirements, __help them understand__ their licence and __RSA rules.__
-    * Answer __common queries__ and concerns.
-    * Make the __forms and appointment booking system__ available.
-    * __Contact__ information.
-* Content Requirements
-    * Home Page
-        * "Are You Eligible For An Irish Licence?"
-        * "Is Your Licence Exchangeable In Ireland?"
-        * Forms & Supporting Documentation
-        * "What Can You Expect Upon Arrival?"
-        * Less Common Issues
-    * Form Download Links & Descriptions
-    * Contact Us
-    * Book Appointment Link
+### Function Requirements
+>    * Verify eligibility.
+>    * __Guide the user__ through the requirements, __help them understand__ their licence and __RSA rules.__
+>    * Answer __common queries__ and concerns.
+>    * Make the __forms and appointment booking system__ available.
+>    * __Contact__ information.
+### Content Requirements
+>    * Home Page
+>        * "Are You Eligible For An Irish Licence?"
+>        * "Is Your Licence Exchangeable In Ireland?"
+>        * Forms & Supporting Documentation
+>        * "What Can You Expect Upon Arrival?"
+>        * Less Common Issues
+>    * Form Download Links & Descriptions
+>    * Contact Us
+>    * Book Appointment Link
 ---
 ## Structure Plane
 ### Information Architecture
@@ -94,7 +94,46 @@ Below are some user stories which reveal how this website is helpful.
 ### Interaction Design
 >Bite-sized paragraphs and clearly defined sections will allow the user to consume information with ease. This will also help avoid overwhelming the user with information.
 >
->Provide contact form that the user can interact with. 
+>Provide contact form that the user can interact with.
+---
+## Skeleton Plane
+>Wireframes can be found [here](LINK)
+>
+>The website will be laid out over 3 pages. Home, Forms and Contact page.
+>
+>The navigation will contain a logo as well as links to the 3 pages. In addition there will be an external link for booking an appointment with the NDLS directly.
+>
+>The footer will contain copyright information, navigation links and some social media links.
+---
+## Surface Plane
+### Colours
+__Primary Colours:__
+Colour | Colour Code | Preview
+--- | --- | :---:
+Blue | #017DC3 | <span style="font-size: 24px;color: #017DC3">■</span>
+Light-Grey | #EDEDED | <span style="font-size: 24px;color: #EDEDED">■</span>
+
+
+__Highlight/Focus Colour:__
+Colour | Colour Code | Preview
+--- | --- | :---:
+Orange | #F26432 | <span style="font-size: 24px;color: #F26432">■</span>
+
+
+__Text Body Colours:__
+Colour | Colour Code | Preview
+--- | --- | :---:
+Dark-Grey | #383838 | <span style="font-size: 24px;color: #383838">■</span>
+Orange | #F26432 | <span style="font-size: 24px;color: #F26432">■</span>
+Off-White | #FAFAFA | <span style="font-size: 24px;color: #FAFAFA">■</span>
+
+
+### Typography
+I want the fonts to be clear and easy to read so I chose Oswald and Open Sans. 
+
+
+"Oswald" will be used to titles to make them stand out.
+"Open Sans" will be used for the body.
 # 5: Features
 
 # 6: Technologies Used
