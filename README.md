@@ -107,26 +107,26 @@ Below are some user stories which reveal how this website is helpful.
 ---
 ## Surface Plane
 ### Colours
-__Primary Colours:__ <span style="font-size: 24px;color: #017DC3">■</span> <span style="font-size: 24px;color: #EDEDED">■</span>
-Colour | Colour Code
---- | ---
-Blue | #017DC3
-Light-Grey | #EDEDED
+__Primary Colours:__
+Colour | Colour Code | Preview
+--- | --- | :---:
+Blue | #017DC3 | ![#017DC3](https://via.placeholder.com/15/017DC3/000000?text=+)
+Light-Grey | #EDEDED | ![#EDEDED](https://via.placeholder.com/15/EDEDED/000000?text=+)
 
 
-__Highlight/Focus Colour:__ <span style="font-size: 24px;color: #F26432">■</span>
-Colour | Colour Code
---- | ---
-Orange | #F26432
+__Highlight/Focus Colour:__ 
+Colour | Colour Code | Preview
+--- | --- | :---:
+Orange | #F26432 | ![#F26432](https://via.placeholder.com/15/F26432/000000?text=+)
 
 
 
-__Text Body Colours:__ <span style="font-size: 24px;color: #383838">■</span> <span style="font-size: 24px;color: #F26432">■</span> <span style="font-size: 24px;color: #FAFAFA">■</span>
-Colour | Colour Code
---- | ---
-Dark-Grey | #383838
-Orange | #F26432
-Off-White | #FAFAFA
+__Text Body Colours:__
+Colour | Colour Code | Preview
+--- | --- | :---:
+Dark-Grey | #383838 | ![#383838](https://via.placeholder.com/15/383838/000000?text=+)
+Orange | #F26432 | ![#F26432](https://via.placeholder.com/15/F26432/000000?text=+)
+Off-White | #FAFAFA | ![#FAFAFA](https://via.placeholder.com/15/FAFAFA/000000?text=+)
 
 
 ### Typography
