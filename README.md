@@ -107,25 +107,26 @@ Below are some user stories which reveal how this website is helpful.
 ---
 ## Surface Plane
 ### Colours
-__Primary Colours:__
-Colour | Colour Code | Preview
---- | --- | :---:
-Blue | #017DC3 | <span style="font-size: 24px;color: #017DC3">■</span>
-Light-Grey | #EDEDED | <span style="font-size: 24px;color: #EDEDED">■</span>
+__Primary Colours:__ <span style="font-size: 24px;color: #017DC3">■</span> <span style="font-size: 24px;color: #EDEDED">■</span>
+Colour | Colour Code
+--- | ---
+Blue | #017DC3
+Light-Grey | #EDEDED
 
 
-__Highlight/Focus Colour:__
-Colour | Colour Code | Preview
---- | --- | :---:
-Orange | #F26432 | <span style="font-size: 24px;color: #F26432">■</span>
+__Highlight/Focus Colour:__ <span style="font-size: 24px;color: #F26432">■</span>
+Colour | Colour Code
+--- | ---
+Orange | #F26432
 
 
-__Text Body Colours:__
-Colour | Colour Code | Preview
---- | --- | :---:
-Dark-Grey | #383838 | <span style="font-size: 24px;color: #383838">■</span>
-Orange | #F26432 | <span style="font-size: 24px;color: #F26432">■</span>
-Off-White | #FAFAFA | <span style="font-size: 24px;color: #FAFAFA">■</span>
+
+__Text Body Colours:__ <span style="font-size: 24px;color: #383838">■</span> <span style="font-size: 24px;color: #F26432">■</span> <span style="font-size: 24px;color: #FAFAFA">■</span>
+Colour | Colour Code
+--- | ---
+Dark-Grey | #383838
+Orange | #F26432
+Off-White | #FAFAFA
 
 
 ### Typography
