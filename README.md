@@ -1,15 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome JakubMrowicki,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
 # FLX - Foreign Licence Exchange Tool
 
 The goal of this website is to __increase the success rate__ at the NDLS _(National Driving Licence Service)_ __for customers exchanging foreign licences.__
@@ -39,7 +27,7 @@ The primary concern is foreign driving licence exchange appointments as they are
 
 The low success rate is causing frustration for the customer due to the applicant having to rebook another appointment which can take weeks. In addition to this, the NDLS can only charge a fee for successful applications, hence the revenue loss.
 
->> We must __improve the success rate__ for this type of application. To achieve this, we should __offer easy to understand guidance__ for customers that will help to __alleviate the commmon issues__ that arise when exchanging a foreign licence.
+> We must __improve the success rate__ for this type of application. To achieve this, we should __offer easy to understand guidance__ for customers that will help to __alleviate the commmon issues__ that arise when exchanging a foreign licence.
 
 # 2: Description
 
@@ -47,8 +35,66 @@ The NDLS Foreign Licence Exchange Tool, or simply FLX is an easy online tool des
 
 # 3: User Stories
 
-# 4: User Experience(UX)
+Below are some user stories which reveal how this website is helpful.
+> + '__Is my licence valid for exchange__ in Ireland?'
+> + '__I don't have time__ to sift through the overwhelming amount of information on the official NDLS website.'
+> + 'I want to __be confident that I'm not missing anything__ such as required documentation.'
+> + '__Where is my local NDLS?__'
+> + 'I want to read some __frequently asked questions.__'
+> + 'I want to know how to __make an appointment.__'
+> + 'I want to __contact the NDLS__ helpline.'
 
+# 4: User Experience(UX)
+## Strategy Plane
+* What is the purpose of this application?
+    * The purpose of this application is to __aid customers__ who come to __exchange their foreign licence__ at the NDLS.
+    * Most of the time, __customers who are exchanging a licence have never visited our service before.__ This results in a __high rejection rate due to uninformed customers__ who don’t bring all the __required documentation.__
+    * By informing the customer before they apply, __user experience overall benefits__ and the __company earns their fee__ for the successful application.
+* Who is the user?
+    * Adult user.
+    * Due to the nature of the application, it is likely that the applicant has __limited English__. It would help to __use simple and clear language__ throughout the content.
+    * Usually, the user is preparing for their __very first visit__ to the NDLS.
+* Why is the content relevant?
+    * By consuming the easily digestible content, the requirements will be clear to the user and thus __helping the user achieve their end goal.__
+    * Frequently asked questions will be answered clearly.
+* Business goals?
+    * Increase the success rate of applicants.
+    * This is important because there is a __finite number of appointments__ per day and only successful applicants are charged a fee. Meaning that each rejected application is a loss for the business.
+* Value for the user?
+    * __Save time__ by avoiding a wasted trip due to submitting insufficient documentation.
+    * __Make it convenient for the user__, save them from digging through the official website which is designed to cater to all applicants.
+---
+## Scope Plane
+* Function Requirements
+    * Verify eligibility.
+    * __Guide the user__ through the requirements, __help them understand__ their licence and __RSA rules.__
+    * Answer __common queries__ and concerns.
+    * Make the __forms and appointment booking system__ available.
+    * __Contact__ information.
+* Content Requirements
+    * Home Page
+        * "Are You Eligible For An Irish Licence?"
+        * "Is Your Licence Exchangeable In Ireland?"
+        * Forms & Supporting Documentation
+        * "What Can You Expect Upon Arrival?"
+        * Less Common Issues
+    * Form Download Links & Descriptions
+    * Contact Us
+    * Book Appointment Link
+---
+## Structure Plane
+### Information Architecture
+>Simplicity and ease of comprehension is the focus.
+>
+>The home page will therefore contain almost all of the most relevant information. The content will be in order of importance. This will help the user accomplish their goals easier.
+>
+>The forms page will contain download links for all the relevant forms. In addition, descriptions and tips will be available.
+>
+>The contact page will contain a map with pinned NDLS locations, phone number to the helpdesk, contact form,
+### Interaction Design
+>Bite-sized paragraphs and clearly defined sections will allow the user to consume information with ease. This will also help avoid overwhelming the user with information.
+>
+>Provide contact form that the user can interact with. 
 # 5: Features
 
 # 6: Technologies Used
