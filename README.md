@@ -6,17 +6,17 @@ The goal of this website is to __increase the success rate__ at the NDLS _(Natio
 1. [Overview](#1-overview)
 2. [Description](#2-description)
 3. [User Stories](#3-user-stories)
-4. [User Experience (UX)]()
-5. [Features]
-6. [Technologies Used]
-7. [References For Learning]
-8. [Trials & Testing]
-9. [Problem Solving]
-10. [Code Validation]
-11. [GIT Version Control]
-12. [Website Deployment]
-13. [Credits & Acknowledgments]
-14. [Repositiory Support]
+4. [User Experience (UX)](#4-user-experienceux)
+5. [Features](#5-features)
+6. [Technologies Used](#6-technologies-used)
+7. [References For Learning](#7-references-for-learning)
+8. [Trials & Testing](#8-trials--testing)
+9. [Problem Solving](#9-problem-solving)
+10. [Code Validation](#10-code-validation)
+11. [GIT Version Control](#11-git-version-control)
+12. [Website Deployment](#12-website-deployment)
+13. [Credits & Acknowledgments](#13-credits--acknowledgments)
+14. [Repositiory Support](#14-repositiory-support)
 
 # 1: Overview
 
@@ -152,5 +152,6 @@ I want the fonts to be clear and easy to read so I chose Oswald and Open Sans.
 # 12: Website Deployment
 
 # 13: Credits & Acknowledgments
+* Thanks to [AlecRust's response on StackOverflow](https://stackoverflow.com/a/41247934) I was able to add colour previews in my README file.
 
 # 14: Repositiory Support
