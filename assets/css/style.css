@@ -5,6 +5,14 @@
 body {
     background-color: #F9F9F9;
 }
+/*Components*/
+.hr {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    height: 1px;
+    background-color: rgb(56 56 56 / 10%);
+}
 /*Navbar*/
 .navi-bar {
     background-color: #017DC3;
@@ -14,9 +22,16 @@ body {
     padding: 0;
 }
 .bookbutton {
-    display: inline;
-    margin-left: 20px;
+    display: inline-block;
     background-color: #F26432;
     border: 1px solid #F26432;
-    border-radius: 16px;
+    border-radius: 24px;
+    padding: 8px 16px !important;
+}
+
+/*Media Queries*/
+@media (min-width: 992px) {
+    .bookbutton {
+        margin-left: 20px;
+    }
 }
