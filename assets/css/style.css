@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #F9F9F9;
+}
+/*Navbar*/
+.navi-bar {
+    background-color: #017DC3;
+    border-bottom: 2px solid #EDEDED;
+}
+.navi-logo {
+    padding: 0;
+}
+.bookbutton {
+    display: inline;
+    margin-left: 20px;
+    background-color: #F26432;
+    border: 1px solid #F26432;
+    border-radius: 16px;
+}
