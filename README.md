@@ -7,6 +7,11 @@ The goal of this website is to __increase the success rate__ at the NDLS _(Natio
 2. [Description](#2-description)
 3. [User Stories](#3-user-stories)
 4. [User Experience (UX)](#4-user-experienceux)
+    * [Strategy Plane](#strategy-plane)
+    * [Scope Plane](#scope-plane)
+    * [Structure Plane](#structure-plane)
+    * [Skeleton Plane](#skeleton-plane)
+    * [Surface Plane](#surface-plane)
 5. [Features](#5-features)
 6. [Technologies Used](#6-technologies-used)
 7. [References For Learning](#7-references-for-learning)
@@ -97,7 +102,7 @@ Below are some user stories which reveal how this website is helpful.
 >Provide contact form that the user can interact with.
 ---
 ## Skeleton Plane
->Wireframes can be found [here](LINK)
+>Wireframes can be found [here](https://github.com/JakubMrowicki/ci-ms1/blob/master/assets/docs/Wireframes.pdf)
 >
 >The website will be laid out over 3 pages. Home, Forms and Contact page.
 >
