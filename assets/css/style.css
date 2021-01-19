@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
 body {
+    font-family: 'Open Sans', sans-serif;
     background-color: #F9F9F9;
     background: url('../images/scanlines.jpg') repeat;
 }
@@ -23,6 +28,12 @@ body {
     max-width: 80%;
     height: 2px;
     background-color: rgb(56 56 56 / 25%);
+}
+.content-area {
+    background-color: #EDEDED;
+    border-top: 2px solid #017DC3;
+    border-radius: 5px;
+    padding: 15px 10px;
 }
 .socicons {
     font-size: 32px;
@@ -62,12 +73,41 @@ body {
     background-color: #f9f9f9;
     border-top: 2px #017DC3 solid;
     padding: 10px 10px;
+    overflow-x: hidden;
 }
 .footer-nav {
     margin: 0;
 }
 .footer-main a {
     color: #383838;
+}
+.hero {
+    overflow: auto;
+    position: relative;
+}
+.hero:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    background-image: url('https://leopardstownshoppingcentre.ie/wp-content/uploads/2017/07/NDLS-1.png');
+    background-size:cover;
+    width: 100%;
+    height: 90%;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.hero-container {
+    z-index: 1;
+    max-width: 400px;
+    margin: 35vh auto 40vh auto;
 }
 /*Media Queries*/
 @media (min-width: 992px) {

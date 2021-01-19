@@ -159,4 +159,5 @@ I want the fonts to be clear and easy to read so I chose Oswald and Open Sans.
 # 13: Credits & Acknowledgments
 * Thanks to [AlecRust's response on StackOverflow](https://stackoverflow.com/a/41247934) I was able to add colour previews in my README file.
 * Thanks to [Zim's response on StackOverflow](https://stackoverflow.com/a/54574324) I was able to center my logo on mobile devices without affecting desktop users.
+* Thanks to [Necrone's reponse on StackOverflow](https://stackoverflow.com/a/33091315) for the blur effect code.
 # 14: Repositiory Support
