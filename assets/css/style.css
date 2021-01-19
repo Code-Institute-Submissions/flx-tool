@@ -21,6 +21,14 @@ body {
 }
 .navi-logo {
     padding: 0;
+    opacity: 1;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.navi-logo:hover {
+    opacity: 0.8;
 }
 .bookbutton {
     display: inline-block;
@@ -34,6 +42,7 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link.active {
     font-weight: bold;
+    border-bottom: 2px solid #fff;
 }
 /*Media Queries*/
 @media (min-width: 992px) {
