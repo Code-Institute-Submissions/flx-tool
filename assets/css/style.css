@@ -6,6 +6,16 @@ body {
     background-color: #F9F9F9;
     background: url('../images/scanlines.jpg') repeat;
 }
+/*Colours*/
+.fb-color {
+    color: #1778F2;
+}
+.yt-color {
+    color: #F70000;
+}
+.twitter-color {
+    color: #009DEB;
+}
 /*Components*/
 .hr {
     display: block;
@@ -13,6 +23,9 @@ body {
     max-width: 80%;
     height: 2px;
     background-color: rgb(56 56 56 / 25%);
+}
+.socicons {
+    font-size: 32px;
 }
 /*Navbar*/
 .navi-bar {
@@ -44,9 +57,24 @@ body {
     font-weight: bold;
     border-bottom: 2px solid #fff;
 }
+/*Footer*/
+.footer-main {
+    background-color: #f9f9f9;
+    border-top: 2px #017DC3 solid;
+    padding: 10px 10px;
+}
+.footer-nav {
+    margin: 0;
+}
+.footer-main a {
+    color: #383838;
+}
 /*Media Queries*/
 @media (min-width: 992px) {
     .bookbutton {
         margin-left: 20px;
+    }
+    .footer-main {
+        padding: 50px 10px;
     }
 }
