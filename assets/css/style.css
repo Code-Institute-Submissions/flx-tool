@@ -40,10 +40,19 @@ body {
 .socicons {
     font-size: 32px;
 }
+.btn-primary {
+    background-color: #017DC3;
+}
+.btn-primary:hover {
+    background-color: rgb(0, 92, 145);
+}
 /*Navbar*/
 .navi-bar {
     background-color: #017DC3;
     border-bottom: 2px solid #EDEDED;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
 }
 .navi-logo {
     padding: 0;
