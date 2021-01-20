@@ -143,7 +143,15 @@ I want the fonts to be clear and easy to read so I chose Oswald and Open Sans.
 # 5: Features
 
 # 6: Technologies Used
-
+This project uses the following technologies:
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 4.5
+* FontAwesome Icons
+* Google Fonts
+* Github & Git
+* GitPod
 # 7: References For Learning
 
 # 8: Trials & Testing
