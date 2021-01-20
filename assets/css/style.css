@@ -122,6 +122,11 @@ body {
     max-width: 400px;
 }
 /*Media Queries*/
+@media (max-width: 576px) {
+    .container {
+        padding: 0;
+    }
+}
 @media (min-width: 992px) {
     .bookbutton {
         margin-left: 20px;
