@@ -56,13 +56,18 @@ body {
 .btn-secondary:hover {
     background-color: #cc4313;
 }
+.ptw {
+    padding-top: 70px;
+}
 /*Navbar*/
 .navi-bar {
     background-color: #017DC3;
     border-bottom: 2px solid #EDEDED;
-    position: absolute;
     width: 100%;
     z-index: 2;
+}
+.navi-bar-pos {
+    position: absolute;
 }
 .navi-logo {
     padding: 0;
