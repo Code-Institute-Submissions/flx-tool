@@ -37,6 +37,10 @@ body {
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
 }
+.proceed-cont {
+    max-width: 400px;
+    margin: 24px auto;
+}
 .socicons {
     font-size: 32px;
 }
@@ -45,6 +49,12 @@ body {
 }
 .btn-primary:hover {
     background-color: rgb(0, 92, 145);
+}
+.btn-secondary {
+    background-color: #F26432;
+}
+.btn-secondary:hover {
+    background-color: #cc4313;
 }
 /*Navbar*/
 .navi-bar {
