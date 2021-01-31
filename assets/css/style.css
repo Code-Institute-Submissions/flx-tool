@@ -11,6 +11,9 @@ body {
     background-color: #F9F9F9;
     background: url('../images/scanlines.jpg') repeat;
 }
+ul {
+    margin-left: 24px;
+}
 /*Colours*/
 .fb-color {
     color: #1778F2;
