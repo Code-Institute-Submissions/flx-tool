@@ -84,6 +84,7 @@ ul {
 .navi-logo {
     padding: 0;
     opacity: 1;
+    max-height: 40px;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
