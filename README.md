@@ -16,14 +16,12 @@ The goal of this website is to __increase the success rate__ at the NDLS _(Natio
     * [Surface Plane](#surface-plane)
 5. [Features](#5-features)
 6. [Technologies Used](#6-technologies-used)
-7. [References For Learning](#7-references-for-learning)
-8. [Trials & Testing](#8-trials--testing)
-9. [Problem Solving](#9-problem-solving)
-10. [Code Validation](#10-code-validation)
-11. [GIT Version Control](#11-git-version-control)
-12. [Website Deployment](#12-website-deployment)
-13. [Credits & Acknowledgments](#13-credits--acknowledgments)
-14. [Repositiory Support](#14-repositiory-support)
+7. [Trials & Testing](#7-trials--testing)
+8. [Problem Solving](#8-problem-solving)
+9. [Code Validation](#9-code-validation)
+10. [Website Deployment](#10-website-deployment)
+11. [Credits & Acknowledgments](#11-credits--acknowledgments)
+12. [Repositiory Support](#12-repositiory-support)
 
 # 1: Overview
 
@@ -143,7 +141,10 @@ I want the fonts to be clear and easy to read so I chose Oswald and Open Sans.
 "Oswald" will be used to titles to make them stand out.
 "Open Sans" will be used for the body.
 # 5: Features
-
+* Applicant eligibility check
+* Licence eligibility check
+* Application forms & reports downloads and descriptions
+* General contact information for the service and contact form.
 # 6: Technologies Used
 This project uses the following technologies:
 * HTML5
@@ -154,22 +155,24 @@ This project uses the following technologies:
 * Google Fonts
 * Github & Git
 * GitPod
-# 7: References For Learning
+* Photoshop
 
-# 8: Trials & Testing
+# 7: Trials & Testing
 
-# 9: Problem Solving
+# 8: Problem Solving
 
-# 10: Code Validation
+# 9: Code Validation
+HTML was Validated using the [W3 Validator](https://validator.w3.org/) and returned no errors.
 
-# 11: GIT Version Control
+CSS  was Validated using [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/validator) and returned no errors.
+# 10: Website Deployment
+This project is deployed to the public by using GitHub Pages.
+[View On GitHub Pages](https://jakubmrowicki.github.io/ci-ms1/)
 
-# 12: Website Deployment
-
-# 13: Credits & Acknowledgments
+# 11: Credits & Acknowledgments
 * Thanks to [AlecRust's response on StackOverflow](https://stackoverflow.com/a/41247934) I was able to add colour previews in my README file.
 * Thanks to [Zim's response on StackOverflow](https://stackoverflow.com/a/54574324) I was able to center my logo on mobile devices without affecting desktop users.
 * Thanks to [Necrone's reponse on StackOverflow](https://stackoverflow.com/a/33091315) for the blur effect code.
 * Thanks to [Marco Trulla on codepen.io](https://codepen.io/Ragnarokkr/pen/KAejm) for a box-shadow vignette effect.
 * Thanks to [Arseniy-II on StackOverflow](https://stackoverflow.com/a/56895999) for their smooth scroll solution.
-# 14: Repositiory Support
+# 12: Repositiory Support
