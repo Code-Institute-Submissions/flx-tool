@@ -71,6 +71,9 @@ ul {
 .btn-border {
     border-right: 2px solid #174f6f;
 }
+.spacer-12 {
+    height: 12px;
+}
 /*Navbar*/
 .navi-bar {
     background-color: #017DC3;

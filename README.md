@@ -135,7 +135,7 @@ Off-White | #FAFAFA | ![#FAFAFA](https://via.placeholder.com/15/FAFAFA/000000?te
 
 
 ### Typography
-I want the fonts to be clear and easy to read so I chose Oswald and Open Sans. 
+I want the fonts to be clear and easy to read so I chose [Oswald](https://fonts.google.com/specimen/Oswald) and [Open Sans](https://fonts.google.com/specimen/Open+Sans). 
 
 
 "Oswald" will be used to titles to make them stand out.
@@ -165,6 +165,8 @@ This project uses the following technologies:
 HTML was Validated using the [W3 Validator](https://validator.w3.org/) and returned no errors.
 
 CSS  was Validated using [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/validator) and returned no errors.
+
+Alicia Ramirez' [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) was used to further validate the code.
 # 10: Website Deployment
 This project is deployed to the public by using GitHub Pages.
 [View On GitHub Pages](https://jakubmrowicki.github.io/ci-ms1/)
@@ -176,3 +178,4 @@ This project is deployed to the public by using GitHub Pages.
 * Thanks to [Marco Trulla on codepen.io](https://codepen.io/Ragnarokkr/pen/KAejm) for a box-shadow vignette effect.
 * Thanks to [Arseniy-II on StackOverflow](https://stackoverflow.com/a/56895999) for their smooth scroll solution.
 # 12: Repositiory Support
+For support please email at [xdshiftblue@gmail.com](mailto:xdshiftblue@gmail.com)
