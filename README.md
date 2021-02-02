@@ -2,6 +2,8 @@
 ![amiresponsive](https://i.imgur.com/uwRMvCI.png)
 
 [View Project on GitHub Pages](https://jakubmrowicki.github.io/flx-tool/)
+
+
 The goal of this website is to __increase the success rate__ at the NDLS _(National Driving Licence Service)_ __for customers exchanging foreign licences.__
 
 # Table of Contents
@@ -32,7 +34,7 @@ The primary concern is foreign driving licence exchange appointments as they are
 
 The low success rate is causing frustration for the customer due to the applicant having to rebook another appointment which can take weeks. In addition to this, the NDLS can only charge a fee for successful applications, hence the revenue loss.
 
-> We must __improve the success rate__ for this type of application. To achieve this, we should __offer easy to understand guidance__ for customers that will help to __alleviate the commmon issues__ that arise when exchanging a foreign licence.
+> We must __improve the success rate__ for this type of application. To achieve this, we should __offer easy to understand guidance__ for customers that will help to __alleviate the common issues__ that arise when exchanging a foreign licence.
 
 # 2: Description
 
@@ -41,13 +43,13 @@ The NDLS Foreign Licence Exchange Tool, or simply FLX is an easy online tool des
 # 3: User Stories
 
 Below are some user stories which reveal how this website is helpful.
-+ 'A User, __Is my licence valid for exchange__ in Ireland?'
-+ 'A User, __I don't have time__ to sift through the overwhelming amount of information on the official NDLS website.'
-+ 'A User, I want to __be confident that I'm not missing anything__ such as required documentation.'
-+ 'A User, __Where is my local NDLS?__'
-+ 'A User, I want to read some __common mistakes applicants make and how I can avoid them.__'
-+ 'A User, I want to know how to __make an appointment.__'
-+ 'A User, I want to __contact the NDLS__ helpline.'
++ 'A user; __Is my licence valid for exchange__ in Ireland?'
++ 'A user; __I don't have time__ to sift through the overwhelming amount of information on the official NDLS website.'
++ 'A user; I want to __be confident that I'm not missing anything__ such as required documentation.'
++ 'A user; __Where is my local NDLS?__'
++ 'A user; I want to read some __common mistakes applicants make and how I can avoid them.__'
++ 'A user; I want to know how to __make an appointment.__'
++ 'A user; I want to __contact the NDLS__ helpline.'
 
 # 4: User Experience(UX)
 ## Strategy Plane
@@ -80,9 +82,8 @@ Below are some user stories which reveal how this website is helpful.
 * Home Page
     * "Are You Eligible For An Irish Licence?"
     * "Is Your Licence Exchangeable In Ireland?"
-    * Forms & Supporting Documentation
     * "What Can You Expect Upon Arrival?"
-    * Less Common Issues
+    * Common Issues
 * Form Download Links & Descriptions
 * Contact Us
 * Book Appointment Link
@@ -95,7 +96,7 @@ The home page will therefore contain almost all of the most relevant information
 
 The forms page will contain download links for all the relevant forms. In addition, descriptions and tips will be available.
 
-The contact page will contain a map with pinned NDLS locations, phone number to the helpdesk, contact form,
+The contact page will contain information about opening hours, contact info, a form and a link to find your local centre.
 ### Interaction Design
 Bite-sized paragraphs and clearly defined sections will allow the user to consume information with ease. This will also help avoid overwhelming the user with information.
 
@@ -160,11 +161,19 @@ This project uses the following technologies:
 * Photoshop
 
 # 7: Trials & Testing
-Other Browsers
+* Website was run through the Mobile-Friendly Test by Google and was deemed Mobile Friendly. To further test this, I opened the website on my phone and checked it there too.
+* Individual html pages & css files were tested using W3 Validator and returned no error messages.
+* Tested all the links on the website, and made sure that external links open in a new tab.
+* Tested responsiveness to ensure the website looks good on all devices.
+* Tested the form, made sure you cannot submit it without entering all the required information.
+* Validated and fixed Colour Contrast issues using the [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
+
 Mobile Devices 
 Chrome Dev Tools
 # 8: Problem Solving
-
+* I wanted the navbar logo to be centered on mobile devices but couldn't figure out how to achieve my goal. I Googled my problem and found [Zim's response on StackOverflow](https://stackoverflow.com/a/54574324). By altering this users code I was able to achieve the look I was going for with ease.
+* I wanted the "Get Started!" button to take the user to the first piece of content on the page. However I didn't like how there was no transition, just an instant page jump. I was able to find a solution by [Arseniy-II on StackOverflow](https://stackoverflow.com/a/56895999) and thus enhancing the user experience by smoothly transitioning to the first header.
+* Some of the colour combinations I chose didn't pass the Color Contrast Accessibility Validator, so I had to increase the contrast on some elements by changing the colours slightly.
 # 9: Code Validation
 HTML was Validated using the [W3 Validator](https://validator.w3.org/) and returned no errors.
 
@@ -183,10 +192,15 @@ To deploy the project, the following steps were followed.
 [View On GitHub Pages](https://jakubmrowicki.github.io/flx-tool/)
 
 # 11: Credits & Acknowledgments
+* Many thanks to my mentor, Ignatius Ukwuoma for his suggestions and overall support of this project.
 * Thanks to [AlecRust's response on StackOverflow](https://stackoverflow.com/a/41247934) I was able to add colour previews in my README file.
 * Thanks to [Zim's response on StackOverflow](https://stackoverflow.com/a/54574324) I was able to center my logo on mobile devices without affecting desktop users.
 * Thanks to [Necrone's reponse on StackOverflow](https://stackoverflow.com/a/33091315) for the blur effect code.
 * Thanks to [Marco Trulla on codepen.io](https://codepen.io/Ragnarokkr/pen/KAejm) for a box-shadow vignette effect.
 * Thanks to [Arseniy-II on StackOverflow](https://stackoverflow.com/a/56895999) for their smooth scroll solution.
+
+### Content
+* The images used on the website were taken by me at my local NDLS centre.
+* Content is mostly self-written, the exception being the official NDLS requirements lists to avoid confusion.
 # 12: Repositiory Support
 For support please email at [xdshiftblue@gmail.com](mailto:xdshiftblue@gmail.com)
