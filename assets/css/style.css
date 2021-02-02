@@ -61,13 +61,13 @@ p a {
     background-color: #00578A;
 }
 .btn-primary:hover {
-    background-color: rgb(0, 68, 107);
+    background-color: #017DC3;
 }
 .btn-secondary {
-    background-color: #F26432;
+    background-color: #9E2E05;
 }
 .btn-secondary:hover {
-    background-color: #cc4313;
+    background-color: #F26432;
 }
 .ptw {
     padding-top: 70px;
