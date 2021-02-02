@@ -41,13 +41,13 @@ The NDLS Foreign Licence Exchange Tool, or simply FLX is an easy online tool des
 # 3: User Stories
 
 Below are some user stories which reveal how this website is helpful.
-> + '__Is my licence valid for exchange__ in Ireland?'
-> + '__I don't have time__ to sift through the overwhelming amount of information on the official NDLS website.'
-> + 'I want to __be confident that I'm not missing anything__ such as required documentation.'
-> + '__Where is my local NDLS?__'
-> + 'I want to read some __frequently asked questions.__'
-> + 'I want to know how to __make an appointment.__'
-> + 'I want to __contact the NDLS__ helpline.'
+> + 'A User, __Is my licence valid for exchange__ in Ireland?'
+> + 'A User, __I don't have time__ to sift through the overwhelming amount of information on the official NDLS website.'
+> + 'A User, I want to __be confident that I'm not missing anything__ such as required documentation.'
+> + 'A User, __Where is my local NDLS?__'
+> + 'A User, I want to read some __common mistakes applicants make and how I can avoid them.__'
+> + 'A User, I want to know how to __make an appointment.__'
+> + 'A User, I want to __contact the NDLS__ helpline.'
 
 # 4: User Experience(UX)
 ## Strategy Plane
