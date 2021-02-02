@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
 * {
     margin: 0;
@@ -143,7 +150,8 @@ p a, .footer-nav a, dl a {
     overflow: auto;
     position: relative;
     height: 80vh;
-    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    -webkit-box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+            box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 .hero:before {
     content: "";
