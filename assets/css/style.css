@@ -17,7 +17,7 @@ ul, ol {
 .btn a {
     color: #fff;
 }
-p a, .footer-nav a {
+p a, .footer-nav a, dl a {
     color: #0051A8;
     font-weight: bold;
 }
