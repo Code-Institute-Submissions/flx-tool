@@ -54,10 +54,10 @@ ul, ol {
     font-size: 32px;
 }
 .btn-primary {
-    background-color: #017DC3;
+    background-color: #00578A;
 }
 .btn-primary:hover {
-    background-color: rgb(0, 92, 145);
+    background-color: rgb(0, 68, 107);
 }
 .btn-secondary {
     background-color: #F26432;
@@ -122,6 +122,7 @@ ul, ol {
 .footer-main a {
     color: #383838;
 }
+/*Hero Image & Container*/
 .hero {
     overflow: auto;
     position: relative;
