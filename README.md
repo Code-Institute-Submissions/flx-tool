@@ -23,7 +23,7 @@ The goal of this website is to __increase the success rate__ at the NDLS _(Natio
 9. [Code Validation](#9-code-validation)
 10. [Website Deployment](#10-website-deployment)
 11. [Credits & Acknowledgments](#11-credits--acknowledgments)
-12. [Repositiory Support](#12-repositiory-support)
+12. [Repository Support](#12-repository-support)
 
 # 1: Overview
 
@@ -32,7 +32,7 @@ The NDLS is forced to serve customers on an appointment only basis due to COVID-
 
 The primary concern is foreign driving licence exchange appointments as they are usually first time customers and unfamiliar with the NDLS. These applications are more complex in comparison to standard Irish licence applications, therefore they have a considerably lower success rate.
 
-The low success rate is causing frustration for the customer due to the applicant having to rebook another appointment which can take weeks. In addition to this, the NDLS can only charge a fee for successful applications, hence the revenue loss.
+The low success rate is causing frustration for the customer due to the applicant having to book another appointment which can take weeks. In addition to this, the NDLS can only charge a fee for successful applications, hence the revenue loss.
 
 > We must __improve the success rate__ for this type of application. To achieve this, we should __offer easy to understand guidance__ for customers that will help to __alleviate the common issues__ that arise when exchanging a foreign licence.
 
@@ -92,7 +92,7 @@ Below are some user stories which reveal how this website is helpful.
 ### Information Architecture
 Simplicity and ease of comprehension is the focus.
 
-The home page will therefore contain almost all of the most relevant information. The content will be in order of importance. This will help the user accomplish their goals easier.
+The home page will therefore contain almost all the most relevant information. The content will be in order of importance. This will help the user accomplish their goals easier.
 
 The forms page will contain download links for all the relevant forms. In addition, descriptions and tips will be available.
 
@@ -108,7 +108,7 @@ Wireframes can be found [here](https://github.com/JakubMrowicki/ci-ms1/blob/mast
 
 The website will be laid out over 3 pages. Home, Forms and Contact page.
 
-The navigation will contain a logo as well as links to the 3 pages. In addition there will be an external link for booking an appointment with the NDLS directly.
+The navigation will contain a logo as well as links to the 3 pages. In addition, there will be an external link for booking an appointment with the NDLS directly.
 
 The footer will contain copyright information, navigation links and some social media links.
 
@@ -173,7 +173,9 @@ Chrome Dev Tools
 # 8: Problem Solving
 * I wanted the navbar logo to be centered on mobile devices but couldn't figure out how to achieve my goal. I Googled my problem and found [Zim's response on StackOverflow](https://stackoverflow.com/a/54574324). By altering this users code I was able to achieve the look I was going for with ease.
 * I wanted the "Get Started!" button to take the user to the first piece of content on the page. However I didn't like how there was no transition, just an instant page jump. I was able to find a solution by [Arseniy-II on StackOverflow](https://stackoverflow.com/a/56895999) and thus enhancing the user experience by smoothly transitioning to the first header.
-* Some of the colour combinations I chose didn't pass the Color Contrast Accessibility Validator, so I had to increase the contrast on some elements by changing the colours slightly.
+* Some colour combinations I chose didn't pass the Color Contrast Accessibility Validator, so I had to increase the contrast on some elements by changing the colours slightly.
+* I added hover effects to the nav bar items, however I didn't want this hover effect to impact the last nav link which is the external link due to styling. How I fixed it is I added it's very own :hover effect which is the same as when it's not being hover over. There are probably better ways to do this, like for example using :nth-child(-n+3), however I couldn't get this to work.
+* 
 # 9: Code Validation
 HTML was Validated using the [W3 Validator](https://validator.w3.org/) and returned no errors.
 
@@ -184,7 +186,7 @@ Alicia Ramirez' [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/cl
 This project is deployed to the public by using GitHub Pages.
 
 To deploy the project, the following steps were followed.
-* When viewing the repositiory page, click on the settings button.
+* When viewing the repository page, click on the settings button.
 * Scroll down to the GitHub Pages section.
 * Select the master branch and save.
 * After about 15 minutes, the website is live.
@@ -202,5 +204,5 @@ To deploy the project, the following steps were followed.
 ### Content
 * The images used on the website were taken by me at my local NDLS centre.
 * Content is mostly self-written, the exception being the official NDLS requirements lists to avoid confusion.
-# 12: Repositiory Support
+# 12: Repository Support
 For support please email at [xdshiftblue@gmail.com](mailto:xdshiftblue@gmail.com)
