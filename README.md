@@ -166,7 +166,7 @@ This project uses the following technologies:
     * [Forms Page Results](https://search.google.com/test/mobile-friendly?id=Ze7_ntbKorMHKzmX5LGO6w)
     * [Contact Page Results](https://search.google.com/test/mobile-friendly?id=H-epR2ju3aboQ_8uWSS2cw)
 * Individual html pages & css files were tested using W3 Validator and returned no error messages.
-* Tested all the links on the website, and made sure that external links open in a new tab.
+* Tested all the links on the website, and made sure that external links open in a new tab. Double checked again using [Dead Link Checker](https://www.deadlinkchecker.com/website-dead-link-checker.asp)
 * Tested responsiveness to ensure the website looks good on all devices.
 * Tested the form, made sure you cannot submit it without entering all the required information.
 * Validated and fixed Colour Contrast issues using the [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
