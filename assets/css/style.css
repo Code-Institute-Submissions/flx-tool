@@ -149,9 +149,9 @@ p a, .footer-nav a, dl a {
 /*Hero Image & Container*/
 .hero {
     overflow: auto;
-    position: relative;
+    position: relative; /* Adapted Hero Section Credit: https://www.developerdrive.com/full-page-hero-image-html-css/ */
     height: 80vh;
-    -webkit-box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    -webkit-box-shadow: 0 0 200px rgba(0,0,0,0.9) inset; /* Vignette Effect Credit: Marco Trulla on codepen.io https://codepen.io/Ragnarokkr/pen/KAejm */
             box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 .hero:before {
@@ -168,7 +168,7 @@ p a, .footer-nav a, dl a {
     height: 80vh;
 
     -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
+    -moz-filter: blur(5px); /*Credit: Necrone's reponse on StackOverflow https://stackoverflow.com/a/33091315 */
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
