@@ -17,6 +17,10 @@ ul, ol {
 .btn a {
     color: #fff;
 }
+p a {
+    color: #0051A8;
+    font-weight: bold;
+}
 /*Colours*/
 .fb-color {
     color: #1778F2;
