@@ -1,7 +1,7 @@
 # FLX - Foreign Licence Exchange Tool
-![amiresponsive](https://i.imgur.com/NzSVoBL.png)
+![amiresponsive](https://i.imgur.com/uwRMvCI.png)
 
-
+[View Project on GitHub Pages](https://jakubmrowicki.github.io/flx-tool/)
 The goal of this website is to __increase the success rate__ at the NDLS _(National Driving Licence Service)_ __for customers exchanging foreign licences.__
 
 # Table of Contents
@@ -41,13 +41,13 @@ The NDLS Foreign Licence Exchange Tool, or simply FLX is an easy online tool des
 # 3: User Stories
 
 Below are some user stories which reveal how this website is helpful.
-> + 'A User, __Is my licence valid for exchange__ in Ireland?'
-> + 'A User, __I don't have time__ to sift through the overwhelming amount of information on the official NDLS website.'
-> + 'A User, I want to __be confident that I'm not missing anything__ such as required documentation.'
-> + 'A User, __Where is my local NDLS?__'
-> + 'A User, I want to read some __common mistakes applicants make and how I can avoid them.__'
-> + 'A User, I want to know how to __make an appointment.__'
-> + 'A User, I want to __contact the NDLS__ helpline.'
++ 'A User, __Is my licence valid for exchange__ in Ireland?'
++ 'A User, __I don't have time__ to sift through the overwhelming amount of information on the official NDLS website.'
++ 'A User, I want to __be confident that I'm not missing anything__ such as required documentation.'
++ 'A User, __Where is my local NDLS?__'
++ 'A User, I want to read some __common mistakes applicants make and how I can avoid them.__'
++ 'A User, I want to know how to __make an appointment.__'
++ 'A User, I want to __contact the NDLS__ helpline.'
 
 # 4: User Experience(UX)
 ## Strategy Plane
@@ -71,44 +71,46 @@ Below are some user stories which reveal how this website is helpful.
 ---
 ## Scope Plane
 ### Function Requirements
->    * Verify eligibility.
->    * __Guide the user__ through the requirements, __help them understand__ their licence and __RSA rules.__
->    * Answer __common queries__ and concerns.
->    * Make the __forms and appointment booking system__ available.
->    * __Contact__ information.
+* Verify eligibility.
+* __Guide the user__ through the requirements, __help them understand__ their licence and __RSA rules.__
+* Answer __common queries__ and concerns.
+* Make the __forms and appointment booking system__ available.
+* __Contact__ information.
 ### Content Requirements
->    * Home Page
->        * "Are You Eligible For An Irish Licence?"
->        * "Is Your Licence Exchangeable In Ireland?"
->        * Forms & Supporting Documentation
->        * "What Can You Expect Upon Arrival?"
->        * Less Common Issues
->    * Form Download Links & Descriptions
->    * Contact Us
->    * Book Appointment Link
+* Home Page
+    * "Are You Eligible For An Irish Licence?"
+    * "Is Your Licence Exchangeable In Ireland?"
+    * Forms & Supporting Documentation
+    * "What Can You Expect Upon Arrival?"
+    * Less Common Issues
+* Form Download Links & Descriptions
+* Contact Us
+* Book Appointment Link
 ---
 ## Structure Plane
 ### Information Architecture
->Simplicity and ease of comprehension is the focus.
->
->The home page will therefore contain almost all of the most relevant information. The content will be in order of importance. This will help the user accomplish their goals easier.
->
->The forms page will contain download links for all the relevant forms. In addition, descriptions and tips will be available.
->
->The contact page will contain a map with pinned NDLS locations, phone number to the helpdesk, contact form,
+Simplicity and ease of comprehension is the focus.
+
+The home page will therefore contain almost all of the most relevant information. The content will be in order of importance. This will help the user accomplish their goals easier.
+
+The forms page will contain download links for all the relevant forms. In addition, descriptions and tips will be available.
+
+The contact page will contain a map with pinned NDLS locations, phone number to the helpdesk, contact form,
 ### Interaction Design
->Bite-sized paragraphs and clearly defined sections will allow the user to consume information with ease. This will also help avoid overwhelming the user with information.
->
->Provide contact form that the user can interact with.
+Bite-sized paragraphs and clearly defined sections will allow the user to consume information with ease. This will also help avoid overwhelming the user with information.
+
+Provide contact form that the user can interact with.
+
 ---
 ## Skeleton Plane
->Wireframes can be found [here](https://github.com/JakubMrowicki/ci-ms1/blob/master/assets/docs/Wireframes.pdf)
->
->The website will be laid out over 3 pages. Home, Forms and Contact page.
->
->The navigation will contain a logo as well as links to the 3 pages. In addition there will be an external link for booking an appointment with the NDLS directly.
->
->The footer will contain copyright information, navigation links and some social media links.
+Wireframes can be found [here](https://github.com/JakubMrowicki/ci-ms1/blob/master/assets/docs/Wireframes.pdf)
+
+The website will be laid out over 3 pages. Home, Forms and Contact page.
+
+The navigation will contain a logo as well as links to the 3 pages. In addition there will be an external link for booking an appointment with the NDLS directly.
+
+The footer will contain copyright information, navigation links and some social media links.
+
 ---
 ## Surface Plane
 ### Colours
@@ -171,6 +173,13 @@ CSS  was Validated using [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validat
 Alicia Ramirez' [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) was used to further validate the code.
 # 10: Website Deployment
 This project is deployed to the public by using GitHub Pages.
+
+To deploy the project, the following steps were followed.
+* When viewing the repositiory page, click on the settings button.
+* Scroll down to the GitHub Pages section.
+* Select the master branch and save.
+* After about 15 minutes, the website is live.
+
 [View On GitHub Pages](https://jakubmrowicki.github.io/flx-tool/)
 
 # 11: Credits & Acknowledgments
