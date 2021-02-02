@@ -19,7 +19,7 @@ The goal of this website is to __increase the success rate__ at the NDLS _(Natio
 5. [Features](#5-features)
 6. [Technologies Used](#6-technologies-used)
 7. [Trials & Testing](#7-trials--testing)
-8. [Problem Solving](#8-problem-solving)
+8. [Problem Solving](#8-problem-areas--solutions)
 9. [Code Validation](#9-code-validation)
 10. [Website Deployment](#10-website-deployment)
 11. [Credits & Acknowledgments](#11-credits--acknowledgments)
@@ -167,15 +167,16 @@ This project uses the following technologies:
 * Tested responsiveness to ensure the website looks good on all devices.
 * Tested the form, made sure you cannot submit it without entering all the required information.
 * Validated and fixed Colour Contrast issues using the [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
-
+* Validated HTML and CSS using W3 Validators.
+* Ran style.css through [Autoprefixer](https://autoprefixer.github.io/) to add vendor prefixes.
 Mobile Devices 
 Chrome Dev Tools
-# 8: Problem Solving
+# 8: Problem Areas & Solutions
 * I wanted the navbar logo to be centered on mobile devices but couldn't figure out how to achieve my goal. I Googled my problem and found [Zim's response on StackOverflow](https://stackoverflow.com/a/54574324). By altering this users code I was able to achieve the look I was going for with ease.
 * I wanted the "Get Started!" button to take the user to the first piece of content on the page. However I didn't like how there was no transition, just an instant page jump. I was able to find a solution by [Arseniy-II on StackOverflow](https://stackoverflow.com/a/56895999) and thus enhancing the user experience by smoothly transitioning to the first header.
 * Some colour combinations I chose didn't pass the Color Contrast Accessibility Validator, so I had to increase the contrast on some elements by changing the colours slightly.
 * I added hover effects to the nav bar items, however I didn't want this hover effect to impact the last nav link which is the external link due to styling. How I fixed it is I added it's very own :hover effect which is the same as when it's not being hover over. There are probably better ways to do this, like for example using :nth-child(-n+3), however I couldn't get this to work.
-* 
+
 # 9: Code Validation
 HTML was Validated using the [W3 Validator](https://validator.w3.org/) and returned no errors.
 
