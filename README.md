@@ -1,5 +1,5 @@
 # FLX - Foreign Licence Exchange Tool
-![amiresponsive](https://i.imgur.com/uwRMvCI.png)
+[![amiresponsive](https://i.imgur.com/uwRMvCI.png)](https://jakubmrowicki.github.io/flx-tool/)
 
 [View Project on GitHub Pages](https://jakubmrowicki.github.io/flx-tool/)
 
