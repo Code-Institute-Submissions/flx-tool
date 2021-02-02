@@ -162,6 +162,9 @@ This project uses the following technologies:
 
 # 7: Trials & Testing
 * Website was run through the Mobile-Friendly Test by Google and was deemed Mobile Friendly. To further test this, I opened the website on my phone and checked it there too.
+    * [Home Page Results](https://search.google.com/test/mobile-friendly?id=Oytshjhu15HS8f-47vI0ZA)
+    * [Forms Page Results](https://search.google.com/test/mobile-friendly?id=Ze7_ntbKorMHKzmX5LGO6w)
+    * [Contact Page Results](https://search.google.com/test/mobile-friendly?id=H-epR2ju3aboQ_8uWSS2cw)
 * Individual html pages & css files were tested using W3 Validator and returned no error messages.
 * Tested all the links on the website, and made sure that external links open in a new tab.
 * Tested responsiveness to ensure the website looks good on all devices.
@@ -169,8 +172,8 @@ This project uses the following technologies:
 * Validated and fixed Colour Contrast issues using the [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
 * Validated HTML and CSS using W3 Validators.
 * Ran style.css through [Autoprefixer](https://autoprefixer.github.io/) to add vendor prefixes.
-Mobile Devices 
-Chrome Dev Tools
+* Checked and fixed any typos and grammar issues that I could find by using a Chrome Extension called [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik).
+
 # 8: Problem Areas & Solutions
 * I wanted the navbar logo to be centered on mobile devices but couldn't figure out how to achieve my goal. I Googled my problem and found [Zim's response on StackOverflow](https://stackoverflow.com/a/54574324). By altering this users code I was able to achieve the look I was going for with ease.
 * I wanted the "Get Started!" button to take the user to the first piece of content on the page. However I didn't like how there was no transition, just an instant page jump. I was able to find a solution by [Arseniy-II on StackOverflow](https://stackoverflow.com/a/56895999) and thus enhancing the user experience by smoothly transitioning to the first header.
