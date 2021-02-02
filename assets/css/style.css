@@ -11,7 +11,7 @@ body {
     background-color: #F9F9F9;
     background: url('../images/scanlines.jpg') repeat;
 }
-ul {
+ul, ol {
     margin-left: 24px;
 }
 .btn a {
@@ -72,7 +72,7 @@ ul {
     border-right: 2px solid #174f6f;
 }
 .spacer-12 {
-    height: 12px;
+    height: 50px;
 }
 /*Navbar*/
 .navi-bar {

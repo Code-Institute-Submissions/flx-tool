@@ -158,7 +158,9 @@ This project uses the following technologies:
 * Photoshop
 
 # 7: Trials & Testing
-
+Other Browsers
+Mobile Devices 
+Chrome Dev Tools
 # 8: Problem Solving
 
 # 9: Code Validation
@@ -169,7 +171,7 @@ CSS  was Validated using [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validat
 Alicia Ramirez' [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) was used to further validate the code.
 # 10: Website Deployment
 This project is deployed to the public by using GitHub Pages.
-[View On GitHub Pages](https://jakubmrowicki.github.io/ci-ms1/)
+[View On GitHub Pages](https://jakubmrowicki.github.io/flx-tool/)
 
 # 11: Credits & Acknowledgments
 * Thanks to [AlecRust's response on StackOverflow](https://stackoverflow.com/a/41247934) I was able to add colour previews in my README file.

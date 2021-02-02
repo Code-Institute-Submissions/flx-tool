@@ -4,205 +4,387 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLX - Home</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" sizes="32x32" href="assets/images/favicon-32x32.png" type="image/png">
 </head>
+
 <body>
-<header> <!--Begin Header-->
-    <nav class="navbar navbar-expand-lg navbar-dark navi-bar navi-bar-pos">
-    <div class="d-flex flex-grow-1">
-        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-        <a class="navbar-brand mx-0" href="index.html">
-            <img class="navi-logo" src="assets/images/logo.png" alt="FLX Logo" height="30">
-        </a>
-        <div class="w-100 text-right align-self-center">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </div>
-    <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item mx-auto">
-                <a href="index.html" class="nav-link active">Home</a>
-            </li>
-            <li class="nav-item mx-auto">
-                <a href="forms.html" class="nav-link">Forms</a>
-            </li>
-            <li class="nav-item mx-auto">
-                <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item mx-auto">
-                <a href="https://booking.ndls.ie/loginPPSN.php" class="nav-link bookbutton" target="_blank">Book Appointment <i class="fas fa-external-link-alt"></i></a>
-            </li>
-        </ul>
-    </div>
-</nav>
-</header> <!--End Header-->
-
-<main> <!--Begin Main-->
-<section class="hero d-flex justify-content-center align-items-center">
-    <div class="hero-container content-area">
-        <div class="hero-text">
-            <h2>Need To Exchange Your Licence?</h2>
-            <p>Let us simplify your foreign driving licence exchange process.</p>
-            <button class="btn btn-primary" onclick="begin()">Get Started!</button>
-        </div>
-    </div>
-</section>
-
-<section class="container">
-    <h1 id="begin" class="my-3 ml-3">Am I Eligible?</h1>
-    <img class="img-fluid img-border" src="assets/images/waitingarea.jpg" alt="ndls waiting area">
-    <div class="content-area">
-        <p>In order to be eligible for an Irish driving licence you have to satisfy four basic requirements.</p>
-        <p>The first requirement is photographic ID. You have to be able to prove your identity by submitting a document such as a passport.</p>
-        <p>The second requirement is PPSN. If you have recently moved to the Republic of Ireland and do not have your PPSN yet, get your PPS number prior to applying for your licence.</p>
-        <p>The third requirement is your proof of address. Generally, applicants submit a print out of their Irish bank statement.</p>
-        <p>Lastly, the fourth requirement is your proof of residency entitlement. This is your right to reside in Ireland.</p>
-        <p class="mb-0">Check the lists below to see how you can satisfy these requirements.</p>
-        <div class="row">
-            <div class="col-md content-area m-3">
-                <h2>Photographic ID</h2>
-                <ul>
-                    <li>Public Services Card</li>
-                    <li>Irish passport/passport card (current or expired by no more than 12 months)</li>
-                    <li>Most recent Irish driving licence or learner permit</li>
-                    <li>Current passport for all non-Irish citizens (valid for international use)</li>
-                    <li>Current national identity card for EU/EEA/Swiss citizens</li>
-                    <li>Irish Certificate of Naturalisation</li>
-                    <li>Current UK photo driving licence</li>
-                    <li>Current Irish travel document</li>
+    <!--Begin Header-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navi-bar navi-bar-pos">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block"></span> <!-- hidden spacer to center brand on mobile -->
+                <a class="navbar-brand mx-0" href="index.html">
+                    <img class="navi-logo" src="assets/images/logo.png" alt="FLX Logo" height="30">
+                </a>
+                <div class="w-100 text-right align-self-center">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item mx-auto">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a href="forms.html" class="nav-link">Forms</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a href="https://booking.ndls.ie/loginPPSN.php" class="nav-link bookbutton" target="_blank">
+                            Book Appointment <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-md content-area m-3">
-                <h2>Evidence of PPS number</h2>
-                <ul>
-                    <li>Public Services Card/Social Services Card</li>
-                    <li>Correspondence from Revenue/Department of Employment Affairs and Social Protection showing PPS number</li>
-                    <li>P21/Tax Assessment/ Notice of Tax credits</li>
-                    <li>Receipt of social welfare payment which shows full PPS number</li>
-                    <li>Medical card / Drug Payment Scheme (DPS) card / European Health Insurance card</li>
-                    <li>Payslip or P60/P45</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md content-area m-3">
-                <h2>Evidence of address<small>(dated within six months)</small></h2>
-                <ul>
-                    <li>Public Services card</li>
-                    <li> Utility bill - Mobile phone bills are not acceptable</li>
-                    <li>Statement or other correspondence from bank/building society/credit union including eStatements</li>
-                    <li>Letter from Government Department or State Agency</li>
-                    <li>Correspondence on headed paper from an educational or training body e.g. a secondary school; university; institute of technology or college</li>
-                    <li>Correspondence from an insurance company regarding an active health/life/house/car insurance policy</li>
-                </ul>
-            </div>
-            <div class="col-md content-area m-3">
-                <h2>Evidence of normal residence</h2>
-                <ul>
-                    <li>Public Services Card - where place of birth or nationality is within EU/EEA/Switzerland</li>
-                    <li>Irish/UK (long-form) birth certificate or adoption certificate</li>
-                    <li>Driving licence/learner permit where field 3 shows place of birth is within EU/EEA/Switzerland</li>
-                    <li>Certificate of entry in the Irish Foreign Births Register</li>
-                    <li>Irish passport/passport card (current or expired by no more than 12 months)</li>
-                    <li>Current passport for all EU/EEA/Swiss citizens (valid for international use)</li>
-                    <li>Current national identity card for EU/EEA/Swiss citizens</li>
-                    <li>Irish Certificate of Naturalisation</li>
-                    <li>Current certificate of registration (Garda National Immigration Bureau/GNIB card) or Irish residence permit (IRP) for non- EU/ EEA/Swiss citizens (The GNIB and IRP cards must be presented with a current passport valid for international use or with a Public Services Card)</li>
-                </ul>
-            </div>
-        </div>
-        <p class="mb-0">If you can satisfy these requirements, congratulations. You are eligible for an Irish driving licence.</p>
-    </div>
-    <h1 class="my-3 ml-3">Can My Licence Be Exchanged?</h1>
-    <div class="content-area">
-        <p>Finding out if your licence is eligible is simple. First you need to ensure that your country exchanges with Ireland.</p>
-        <p>All EU member states have a licence exchange agreement. This means that if you hold a licence from Poland, you can exchange it in Ireland because both countries are in the EU.</p>
-        <p>Recognised states from outside of the EU such as Australia & Japan, can also exchange. <a href="https://www.ndls.ie/licensed-driver/exchange-my-foreign-driving-licence.html#recognised-states" target="_blank">Find a full list of Recognised States here</a>.</p>
-        <p><strong>Please note that if your licence is from a recognised state, you will need to provide an Eyesight Report.</strong></p>
-        <img class="img-fluid" src="assets/images/eyesight.jpg" alt="ndls eyesight report">
-        <p>If your licence has a group 2 category on it, such as a C or D licence category. You will need a Medical Report from your doctor in order to exchange. However, if you don't want to exchange these categories you can submit a Declaration to Surrender Categories form. This way you can exchange just your group 1 categories which include; motorcycles, cars, cars with trailers and tractors. </p>
-    </div>
-    <h1 class="my-3 ml-3">What Can I Expect On The Day?</h1>
-    <div class="content-area">
-        <p>It is recommended that you arrive at the center 5-10 minutes prior to your appointment time. Please ensure that you check the text message from the NDLS that you received after confirming your appointment. <strong>If you didn't receive a text message or an email confirming your appointment, it is likely that you did not submit your request for the appointment.</strong></p>
-        <p>When you arrive, please check in with the friendly staff member at the front entrance as they will guide you to join the queue. Please leave any queries for the Verification Officer, this is the person validating your application in the booth.</p>
-        <img class="img-fluid" src="assets/images/booths.jpg" alt="ndls booth number plates">
-        <p>Once you're in the booth, you'll be asked to submit your application form and your licence. The Verification Officer will check everything for you to ensure your application passes smoothly and without issue. They may ask to see additional documentation that you have brought, such as proof of address, eyesight report etc.</p>
-        <p>Your photos will be taken in the booth once the Verification Officer is happy with all the documentation you provided. There is no need to bring your own photographs as they cannot be used.</p>
-        <p>Payment will also be taken at this point. Foreign licence exchange usually costs €55, however if the applicant is over 70 years of age. The application is taken free of charge.</p>
-        <p>Please be advised that currently only card payments are acceptable. No cash.</p>
-    </div>
-    <h1 class="my-3 ml-3">Common Issues & Mistakes</h1>
-    <div class="content-area">
-        <p>Please read some of the most common issues that applicants run into. This can save you a trip to the NDLS as you'll need a new appointment if you run into them yourself.</p>
-        <ul>
-            <li>Make sure you have booked your appointment successfuly. If you have not received a text message or an email confirming your appointment you likely didn't submit your request correctly.</li>
-            <li>Ensure that your doctor/optician has filled in all the required fields on your report. Small mistakes like dating your report for the year 2020 instead of 2021 or entering in today's date instead of your date of birth will result in your application being rejected as only the issuing party can alter your report.</li>
-            <li>If your licence is lost you will need to bring alternative photo ID and have a Garda Declaration form to submit.</li>
-            <li>If you have a licence from a country like New Zealand or Canada where it is not clear whether you passed your test for an automatic/manual car, you will need a Letter of Entitlement from the issuing driving authority.</li>
-            <li>If your licence is not in English, you will need a letter of entitlement along with a certified translation to submit as part of your application.</li>
-        </ul>
-    </div>
-    <div class="content-area proceed-cont">
-        <h2>All Set?</h2>
-        <p>If you're confident that you have everything you need, you can proceed to the forms page to print relevant forms or book your appointment.</p>
-        <div class="d-flex justify-content-center">
-            <a href="forms.html"><span class="btn btn-primary mx-1">Get Forms</span></a>
-            <a href="https://booking.ndls.ie/loginPPSN.php" target="_blank"><span class="btn btn-secondary mx-1">Book Appointment</span></a>
-        </div>
-    </div>
-</section>
-</main> <!--End Main-->
+        </nav>
+    </header>
+    <!--End Header-->
 
-<footer> <!--Begin Footer-->
-<div class="hr"></div>
-<div class="container-fluid footer-main">
-    <div class="row">
-        <div class="col-lg order-1 order-lg-1">
-            <ul class="list-unstyled footer-nav d-flex flex-column flex-lg-row">
-                <li class="p-2 my-2 flex-fill text-center d-none d-lg-block"><i class="far fa-copyright"></i> FLX 2021</li>
-                <li class="p-2 my-2 flex-fill text-center"><a href="index.html">Home</a></li>
-                <li class="p-2 my-2 flex-fill text-center"><a href="forms.html">Forms</a></li>
-                <li class="p-2 my-2 flex-fill text-center"><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="col-lg d-flex justify-content-center order-3 order-lg-2">
-            <a href="index.html"><img class="img-fluid navi-logo" src="assets/images/logo.png" alt="FLX Logo"></a>
-        </div>
-        <div class="col-lg order-4 d-block d-lg-none text-center">
-            <span><i class="far fa-copyright"></i> FLX 2021</span>
-        </div>
-        <div class="col-lg order-2 order-lg-3">
-            <ul class="list-unstyled d-flex flex-row mt-lg-3 justify-content-center justify-content-lg-around">
-                <li class="px-5">
-                    <a href="#"><i class="fab fa-facebook-square socicons fb-color"></i></a>
-                </li>
-                <li class="px-5">
-                    <a href="#"><i class="fab fa-twitter-square socicons twitter-color"></i></a>
-                </li>
-                <li class="px-5">
-                    <a href="#"><i class="fab fa-youtube-square socicons yt-color"></i></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-</footer> <!--End Footer-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script>
-function begin() {
-    const id = 'begin';
-    const yourElement = document.getElementById(id);
-    const y = yourElement.getBoundingClientRect().top + window.pageYOffset;
+    <!--Begin Main-->
+    <main>
+        <section class="hero d-flex justify-content-center align-items-center">
+            <div class="hero-container content-area"> <!--Hero Container-->
+                <div class="hero-text">
+                    <h2>What is FLX?</h2>
+                    <p>
+                        FLX is an informational tool designed to prepare you for your driving licence exchange process.
+                        <br>
+                        Let's simplify your foreign driving licence exchange process today!
+                    </p>
+                    <button class="btn btn-primary" onclick="begin()">Get Started!</button>
+                </div>
+            </div>
+        </section>
 
-    window.scrollTo({top: y, behavior: 'smooth'});
-}
-</script>
+        <section class="container">
+            <h1 id="begin" class="my-3 ml-3">Am I Eligible?</h1> <!--Am I Eligible?-->
+            <img class="img-fluid img-border" src="assets/images/waitingarea.jpg" alt="ndls waiting area">
+            <div class="content-area">
+                <p class="mb-0">
+                    In order to be eligible for an Irish driving licence you have to be a resident in Ireland and have the right to remain
+                    in Ireland. You also need to be able to prove your identity and PPSN. The following example should give you a good idea of
+                    what an applicant can submit to prove all this.
+                    <h3>Example Applicant</h3>
+                    <ol class="mb-2">
+                        <li>
+                            <strong>Photo ID:</strong> EU Passport
+                        </li>
+                        <li>
+                            <strong>PPSN Proof:</strong> Letter from Revenue
+                        </li>
+                        <li>
+                            <strong>Address Proof:</strong> Irish Bank Statement which is dated within 6 months of the application
+                        </li>
+                        <li>
+                            <strong>Residency Entitlement:</strong> EU Passport
+                        </li>
+                    </ol>
+                    You may have noticed, this example shows that the applicant submitted an EU passport to satisfy both identification and residency requirements.
+                    This is because EU citizens are entitled to remain in Ireland.
+                    <strong class="d-block mt-3">Check the lists below to see how you can satisfy these requirements.</strong>
+                </p>
+                <div class="row">
+                    <div class="col-md content-area m-3">
+                        <h2>1. Photographic ID</h2> <!--Photographic ID Card-->
+                        <ul>
+                            <li>
+                                Public Services Card
+                            </li>
+                            <li>
+                                Irish passport/passport card (current or expired by no more than 12 months)
+                            </li>
+                            <li>
+                                Most recent Irish driving licence or learner permit
+                            </li>
+                            <li>
+                                Current passport for all non-Irish citizens (valid for international use)
+                            </li>
+                            <li>
+                                Current national identity card for EU/EEA/Swiss citizens
+                            </li>
+                            <li>
+                                Irish Certificate of Naturalisation
+                            </li>
+                            <li>
+                                Current UK photo driving licence
+                            </li>
+                            <li>
+                                Current Irish travel document
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md content-area m-3">
+                        <h2>2. Evidence of PPS number</h2> <!--Evidence of PPS number-->
+                        <ul>
+                            <li>
+                                Public Services Card/Social Services Card
+                            </li>
+                            <li>
+                                Correspondence from Revenue/Department of Employment Affairs and Social Protection
+                                showing PPS number
+                            </li>
+                            <li>
+                                P21/Tax Assessment/ Notice of Tax credits
+                            </li>
+                            <li>
+                                Receipt of social welfare payment which shows full PPS number
+                            </li>
+                            <li>
+                                Medical card / Drug Payment Scheme (DPS) card / European Health Insurance card
+                            </li>
+                            <li>
+                                Payslip or P60/P45
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md content-area m-3">
+                        <h2>3. Evidence of address<small>(dated within six months)</small></h2> <!--Evidence of address-->
+                        <ul>
+                            <li>
+                                Public Services card
+                            </li>
+                            <li>
+                                Utility bill - Mobile phone bills are not acceptable
+                            </li>
+                            <li>
+                                Statement or other correspondence from bank/building society/credit union including
+                                eStatements
+                            </li>
+                            <li>
+                                Letter from Government Department or State Agency
+                            </li>
+                            <li>
+                                Correspondence on headed paper from an educational or training body e.g. a secondary
+                                school; university; institute of technology or college
+                            </li>
+                            <li>
+                                Correspondence from an insurance company regarding an active health/life/house/car
+                                insurance policy
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md content-area m-3">
+                        <h2>4. Evidence of normal residence</h2> <!--Evidence of normal residence-->
+                        <ul>
+                            <li>
+                                Public Services Card - where place of birth or nationality is within EU/EEA/Switzerland
+                            </li>
+                            <li>
+                                Irish/UK (long-form) birth certificate or adoption certificate
+                            </li>
+                            <li>
+                                Driving licence/learner permit where field 3 shows place of birth is within
+                                EU/EEA/Switzerland
+                            </li>
+                            <li>
+                                Certificate of entry in the Irish Foreign Births Register
+                            </li>
+                            <li>
+                                Irish passport/passport card (current or expired by no more than 12 months)
+                            </li>
+                            <li>
+                                Current passport for all EU/EEA/Swiss citizens (valid for international use)
+                            </li>
+                            <li>
+                                Current national identity card for EU/EEA/Swiss citizens
+                            </li>
+                            <li>
+                                Irish Certificate of Naturalisation
+                            </li>
+                            <li>
+                                Current certificate of registration (Garda National Immigration Bureau/GNIB card) or
+                                Irish residence permit (IRP) for non- EU/ EEA/Swiss citizens (The GNIB and IRP cards
+                                must be presented with a current passport valid for international use or with a Public
+                                Services Card)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="mb-0">
+                    If you can satisfy these requirements, congratulations. You are eligible for an Irish
+                    driving licence.
+                </p>
+            </div>
+
+            <!--Can My Licence Be Exchanged?-->
+            <h1 class="my-3 ml-3">Can My Licence Be Exchanged?</h1>
+            <div class="content-area">
+                <p>
+                    Finding out if your licence is eligible is simple. First you need to ensure that your country
+                    exchanges with Ireland.
+                </p>
+                <p>
+                    All EU member states have a licence exchange agreement. This means that if you hold a licence from
+                    Poland, you can exchange it in Ireland because both countries are in the EU.
+                </p>
+                <p>
+                    Recognised states from outside of the EU such as Australia & Japan, can also exchange. 
+                    <a href="https://www.ndls.ie/licensed-driver/exchange-my-foreign-driving-licence.html#recognised-states" target="_blank">
+                        Find a full list of Recognised States here
+                    </a>.
+                </p>
+                <p>
+                    <strong>Please note that if your licence is from a recognised state, you will need to provide an
+                        Eyesight Report.</strong>
+                </p>
+                <img class="img-fluid" src="assets/images/eyesight.jpg" alt="ndls eyesight report">
+                <p>
+                    If your licence has a group 2 category on it, such as a C or D licence category. You will need a
+                    Medical Report from your doctor in order to exchange. However, if you don't want to exchange these
+                    categories you can submit a Declaration to Surrender Categories form. This way you can exchange just
+                    your group 1 categories which include; motorcycles, cars, cars with trailers and tractors.
+                </p>
+            </div>
+
+            <!--What Can I Expect On The Day?-->
+            <h1 class="my-3 ml-3">What Can I Expect On The Day?</h1>
+            <div class="content-area">
+                <p>
+                    It is recommended that you arrive at the center 5-10 minutes prior to your appointment time. Please
+                    ensure that you check the text message from the NDLS that you received after confirming your
+                    appointment. <strong>If you didn't receive a text message or an email confirming your appointment, 
+                    it is likely that you did not submit your request for the appointment.</strong>
+                </p>
+                <p>
+                    When you arrive, please check in with the friendly staff member at the front entrance as they will
+                    guide you to join the queue. Please leave any queries for the Verification Officer, this is the
+                    person validating your application in the booth.
+                </p>
+                <img class="img-fluid" src="assets/images/booths.jpg" alt="ndls booth number plates">
+                <p>
+                    Once you're in the booth, you'll be asked to submit your application form and your licence. The
+                    Verification Officer will check everything for you to ensure your application passes smoothly and
+                    without issue. They may ask to see additional documentation that you have brought, such as proof of
+                    address, eyesight report etc.
+                </p>
+                <p>
+                    Your photos will be taken in the booth once the Verification Officer is happy with all the
+                    documentation you provided. There is no need to bring your own photographs as they cannot be used.
+                </p>
+                <p>
+                    Payment will also be taken at this point. Foreign licence exchange usually costs €55, however if the
+                    applicant is over 70 years of age. The application is taken free of charge.
+                </p>
+                <p>
+                    Please be advised that currently only card payments are acceptable. No cash.
+                </p>
+            </div>
+
+            <!--Common Issues & Mistakes-->
+            <h1 class="my-3 ml-3">Common Issues & Mistakes</h1>
+            <div class="content-area">
+                <p>
+                    Please read some of the most common issues that applicants run into. This can save you a trip to the
+                    NDLS as you'll need a new appointment if you run into them yourself.
+                </p>
+                <ul>
+                    <li>
+                        Make sure you have booked your appointment successfuly. If you have not received a text message
+                        or an email confirming your appointment you likely didn't submit your request correctly.
+                    </li>
+                    <li>
+                        Ensure that your doctor/optician has filled in all the required fields on your report. Small
+                        mistakes like dating your report for the year 2020 instead of 2021 or entering in today's date
+                        instead of your date of birth will result in your application being rejected as only the issuing
+                        party can alter your report.
+                    </li>
+                    <li>
+                        If your licence is lost you will need to bring alternative photo ID and have a Garda Declaration
+                        form to submit.
+                    </li>
+                    <li>
+                        If you have a licence from a country like New Zealand or Canada where it is not clear whether
+                        you passed your test for an automatic/manual car, you will need a Letter of Entitlement from the
+                        issuing driving authority.
+                    </li>
+                    <li>
+                        If your licence is not in English, you will need a letter of entitlement along with a certified
+                        translation to submit as part of your application.
+                    </li>
+                </ul>
+            </div>
+
+            <!--End Card-->
+            <div class="content-area proceed-cont">
+                <h2>All Set?</h2>
+                <p>
+                    If you're confident that you have everything you need, you can proceed to the forms page to print
+                    relevant forms or book your appointment.
+                </p>
+                <div class="d-flex justify-content-center">
+                    <a href="forms.html"><span class="btn btn-primary mx-1">Get Forms</span></a>
+                    <a href="https://booking.ndls.ie/loginPPSN.php" target="_blank"><span class="btn btn-secondary mx-1">Book Appointment</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--End Main-->
+
+    <!--Begin Footer-->
+    <footer>
+        <div class="hr"></div>
+        <div class="container-fluid footer-main">
+            <div class="row">
+                <div class="col-lg order-1 order-lg-1">
+                    <ul class="list-unstyled footer-nav d-flex flex-column flex-lg-row">
+                        <li class="p-2 my-2 flex-fill text-center d-none d-lg-block"><i class="far fa-copyright"></i> FLX 2021</li>
+                        <li class="p-2 my-2 flex-fill text-center"><a href="index.html">Home</a></li>
+                        <li class="p-2 my-2 flex-fill text-center"><a href="forms.html">Forms</a></li>
+                        <li class="p-2 my-2 flex-fill text-center"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg d-flex justify-content-center order-3 order-lg-2">
+                    <a href="index.html">
+                        <img class="img-fluid navi-logo" src="assets/images/logo.png" alt="FLX Logo">
+                    </a>
+                </div>
+                <div class="col-lg order-4 d-block d-lg-none text-center">
+                    <span><i class="far fa-copyright"></i> FLX 2021</span>
+                </div>
+                <div class="col-lg order-2 order-lg-3">
+                    <ul class="list-unstyled d-flex flex-row mt-lg-3 justify-content-center justify-content-lg-around">
+                        <li class="px-5">
+                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square socicons fb-color"></i></a>
+                        </li>
+                        <li class="px-5">
+                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square socicons twitter-color"></i></a>
+                        </li>
+                        <li class="px-5">
+                            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square socicons yt-color"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script> //Thanks to Arseniy-II on StackOverflow for their smooth scroll solution. https://stackoverflow.com/a/56895999
+        function begin() {
+            const id = 'begin';
+            const yourElement = document.getElementById(id);
+            const y = yourElement.getBoundingClientRect().top + window.pageYOffset;
+
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
